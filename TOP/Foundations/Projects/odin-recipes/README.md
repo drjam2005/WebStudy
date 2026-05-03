@@ -1,2 +1,0 @@
-# First Odin Project:
-# Recipes
