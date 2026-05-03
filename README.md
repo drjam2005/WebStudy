@@ -1,3 +1,4 @@
 # Main repo for Webdev study
-- need to lock in...
-- will probably focus on TheOdinProject for now...
+- The main studies are in the branches (separated by courses)
+- Currently in `TheOdinProject`
+
