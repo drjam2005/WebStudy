@@ -1,0 +1,25 @@
+* {
+	background-color: black;
+	color: white;
+}
+.alert-text {
+	color: red;
+}
+#title {
+	background-color: blue;
+}
+.subsection.header {
+	color: red;
+}
+.subsection#preview {
+	color: blue;
+}
+.ancestor .contents {
+	background-color: #1F1F1F;
+}
+.ancestor > .contents {
+	color: green;
+}
+.ancestor > .contents > .contents{
+	color: orange;
+}
