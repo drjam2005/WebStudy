@@ -1,0 +1,26 @@
+#subsection {
+	color: blue;
+}
+
+.main .list {
+	color: red;
+}
+
+/* inheritance */
+#parent {
+	color: orange;
+}
+
+.child {
+	color: green;
+}
+
+/* id -> class */
+#parent > .child {
+	color: blue;
+}
+
+/* id -> id (more specific) */
+#parent > #kid {
+	color: purple;
+}
