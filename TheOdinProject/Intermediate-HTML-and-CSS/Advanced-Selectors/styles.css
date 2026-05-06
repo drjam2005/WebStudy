@@ -1,0 +1,20 @@
+.parent {
+	border: 3px solid gray;
+	padding: 5px;
+	margin: 5px;
+}
+
+/* selecting all <div>s in nested inside class="parent" */
+.parent div {
+	padding: 5px;
+	margin: 5px;
+	border: 1px dashed gray;
+}
+
+/* selecting all <div>s whose IMMEDIATE PARENT is class="parent" */
+.group1 > div{
+}
+
+/* selecting all <div>s IMMEDIATELY after a whole group1 block */
+.group1 + div {
+}

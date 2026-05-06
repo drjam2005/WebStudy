@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Block and Inline </title>
+		<style>
+			div.div > div {
+				color: #EEEEEE;
+				padding: 30px;
+				text-align: center;
+				margin-bottom: 10px;
+			}
+			.introduction {
+				background-color: #558888;
+			}
+			.main-content {
+				background-color: #3a4a6a;
+			}
+			.contact-us {
+				background-color: #223355;
+			}
+			.highlight {
+				background-color: yellow;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="div">
+			<div class="introduction">
+				<h2> Introduction </h2>
+			</div>
+			<div class="main-content">
+				<h2> Main Content </h2>
+			</div>
+			<div class="contact-us">
+				<h2> Contact Us </h2>
+			</div>
+		</div>
+		<div>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur
+				adipiscing elit, sed do eiusmod tempor incididunt
+				ut labore et dolore magna aliqua. Ut enum ad
+				minim veniam, <span class="highlight">quis nostrud <a href="lol">ullamco laboris</a></span>
+			</p>
+		</div>
+	</body>
+</html>
