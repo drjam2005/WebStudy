@@ -15,6 +15,33 @@
 .group1 > div{
 }
 
-/* selecting all <div>s IMMEDIATELY after a whole group1 block */
+/* selecting THE <div> IMMEDIATELY after a whole group1 block */
 .group1 + div {
+}
+
+/* selecting THE SECOND <div> IMMEDIATELY after a whole group1 block */
+.group1 + div + div {
+}
+
+.grand-child:hover {
+	color: red;
+}
+
+.child:has(.grand-child:hover) {
+	color: blue;
+}
+
+.child:nth-child(2n + 3) {
+	color: green;
+}
+
+.child::before {
+	content: ':)';
+}
+.child::after {
+	content: ':3';
+}
+
+div:class([class]) {
+	color: orange;
 }

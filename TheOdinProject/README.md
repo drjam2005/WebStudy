@@ -1,2 +1,2 @@
 # The Odin Project
-- currently in `Foundations -> Intro to CSS`
+- currently in `Intermediate-HTML-and-CSS -> Advanced Selectors -> First Assignment`
