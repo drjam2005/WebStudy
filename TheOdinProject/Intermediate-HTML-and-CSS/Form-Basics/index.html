@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title> Form Basics </title>
+<style>
+
+:root {
+	--main-background: #d9b384;
+}
+
+.pizza {
+	padding: 5px;
+	background: var(--main-background);
+	max-width: min(50%, 500px);
+}
+
+.pizza > * {
+	margin: 5px;
+	color: white;
+}
+
+.pizza-header {
+	color: white;
+	font-size: 50px;
+	font-weight: bold;
+	padding: 5px;
+	background: color-mix(in srgb, var(--main-background) 50%, black);
+}
+
+.pizza-form {
+	padding: 5px;
+	background: color-mix(in srgb, var(--main-background) 50%, black);
+}
+
+.pizza-type {
+	background: color-mix(in srgb, var(--main-background) 90%, gray);
+}
+
+</style>
+	</head>
+	<body>
+		<form class="pizza" action="https://httpbin.org/post", method="post">
+			<div class="pizza-header"> Pizza! </div>
+			<div class="pizza-type pizza-form">
+				<input type="radio" name="pizza-type" value="round">
+				<label for="round"> Round </label>
+				<br>
+				<input type="radio" name="pizza-type" value="square">
+				<label for="square"> Square </label>
+			</div>
+			<div class="pizza-toppings pizza-form">
+				<input type="checkbox" name="pizza-type" value="pepperoni">
+				<label for="pepperoni"> Pepperoni </label>
+				<br>
+				<input type="checkbox" name="pizza-type" value="onions">
+				<label for="onions"> Onions </label>
+			</div>
+		</form>
+	</body>
+</html>

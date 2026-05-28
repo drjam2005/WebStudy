@@ -1,2 +1,2 @@
 # The Odin Project
-- currently in `Intermediate-HTML-and-CSS -> Advanced Selectors -> First Assignment`
+- currently in `Intermediate-HTML-and-CSS -> Project -> Sign-Up Form`

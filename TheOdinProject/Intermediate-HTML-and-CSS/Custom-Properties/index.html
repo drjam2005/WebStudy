@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title> Custom Properties </title>
+	<style>
+		:root {
+			--main-color: #909090;
+			--root-background: #070707;
+			--container-background: #070707;
+			--header-background: #202020;
+			--content-background: #202020;
+		}
+
+		* {
+			background: var(--root-background);
+		}
+
+		.container {
+			padding: 20px;
+			color: var(--main-color);
+			background: var(--container-background);
+		}
+
+		.container > .header {
+			padding: 5px;
+			background: var(--header-background);
+			font-size: 30px;
+			font-weight: bold;
+		}
+
+		.container > .content {
+			padding: 5px;
+			margin-top: 5px;
+			background: var(--content-background);
+			font-size: 15px;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			Parent Text
+		</div>
+		<div class="content">
+			The quick brown fox jumps over the lazy dog.
+			The quick brown fox jumps over the lazy dog.
+			The quick brown fox jumps over the lazy dog.
+			The quick brown fox jumps over the lazy dog.
+		</div>
+	</div>
+</body>
+</html>
