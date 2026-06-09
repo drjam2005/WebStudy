@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+	<div>
+		<button onclick="
+				let computerChoice = Math.round(Math.random()*100 % 3) + 1;
+				if(computerChoice == 1){
+					alert('Computer also chose Rock\nIt\'s a draw!');
+				}else if(computerChoice == 2){
+					alert('Computer chose paper\nComputer Wins!');
+				}else {
+					alert('Computer chose scissors\nYou Win!');
+				}
+			"> Rock  </button>
+		<button onclick="
+				computerChoice = Math.round(Math.random()*100 % 3) + 1;
+				if(computerChoice == 1){
+					alert('Computer chose rock\nYou Win!');
+				}else if(computerChoice == 2){
+					alert('Computer also chose Paper \nIt\'s a draw!');
+				}else {
+					alert('Computer chose Scissors\nComputer Wins!');
+				}
+			"> Paper  </button>
+		<button onclick="
+				computerChoice = Math.round(Math.random()*100 % 3) + 1;
+				if(computerChoice == 1){
+					alert('Computer chose Rock\nComputer Wins!!');
+				}else if(computerChoice == 2){
+					alert('Computer chose Paper\nYou Wins!');
+				}else {
+					alert('Computer also Chose Rock\nIt\'s a draw!');
+				}
+			"> Scissors  </button>
+	</div>
+
+</body>
+	<script>
+	</script>
+</html>
